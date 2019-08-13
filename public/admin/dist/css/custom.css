@@ -1,0 +1,226 @@
+.admin-nonify ul {
+  margin-bottom: 0;
+}
+
+.table-orders th:first-child,
+.table-orders td:first-child,
+.table-orders th:last-child,
+.table-orders td:last-child {
+  padding: .75rem 0;
+  text-align: center;
+}
+
+.table-orders .success .status {
+  background: rgba(129,231,97,.5);
+}
+
+#orderDetail {
+  cursor: pointer;
+  background: rgb(209,229,244);
+}
+
+#orderDetail .btn {
+  color: rgb(33, 37, 41);
+}
+
+/* category helper */
+.category-helper {
+  margin-bottom: 5px;
+}
+
+.category-helper__block {
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+.category-helper__block:first-child {
+  margin-left: -2px;
+}
+
+.category-helper__square {
+  width: 20px;
+  height: 20px;
+  background: rgb(255,182,183);
+  border: 1px solid rgba(0,0,0,.4);
+  display: inline-block;
+}
+
+.category-helper__text {
+  margin-left: 5px;
+}
+
+/* category list */
+.list-group.list-group-root {
+  background: rgb(239,239,239);
+  padding: 0;
+  border-radius: 12px;
+}
+
+.card-body > .list-group.list-group-root > .item-p > .list-group-item {
+  background: rgb(255,182,183);
+  color: #fff;
+}
+
+.list-group, .list-group.list-group-root > p .list-group {
+  margin-bottom: 0;
+}
+
+.list-group.list-group-root .list-group-item {
+  border-radius: 12px;
+}
+
+.list-group.list-group-root > .list-group > p > .list-group-item {
+  margin-left: 25px;
+}
+
+.list-group.list-group-root > .list-group > .list-group > p > .list-group-item {
+  margin-left: 50px;
+}
+.item-p{
+  display: inline-block;
+  margin: 0;
+  position: relative;
+}
+
+.item-p > span{
+  position: absolute;
+  right: 10px;
+  top: 0px;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+}
+
+.item-p .delete {
+  display: block;
+  height: 100%;
+}
+
+.item-p span .fas,
+.item-p .delete .fas {
+  line-height: 50px;
+}
+
+/* Card users */
+.card-users .table td:last-child {
+  width: 85px;
+}
+
+.card-users .table td:last-child > a {
+  margin: 0 2px;
+}
+
+.card-users_orders .table td,
+.card-users_orders .table th {
+  padding: .58rem;
+}
+
+.card-users_orders .card-body {
+  padding: 1rem;
+}
+
+.card-users_orders .pagination {
+  margin-bottom: 0;
+}
+
+
+.table-product {
+}
+.table-product tr > th:nth-child(n + 4),
+.table-product tr > td:nth-child(n + 4) {
+  text-align: center;
+}
+
+/* card product filters */
+.card-product_filter {
+  height: calc(100% - 1rem);
+}
+
+.select2-container {
+    display: block;
+}
+
+.select2-container--default .select2-selection--multiple {
+  border: 1px solid #ced4da;
+  border-radius: .25rem;
+  box-shadow: inset 0 1px 2px rgba(0,0,0,.075);
+}
+
+.select2-container--default.select2-container--focus.select2-container--open .select2-selection--multiple {
+  border: 1px solid #80bdff;
+  outline: 0;
+  box-shadow: inset 0 1px 2px rgba(0,0,0,.075),inset 0 1px 2px rgba(0,0,0,.075),0 0 5px rgba(128,189,255,.5);
+}
+
+.select2-container--default.select2-container--focus .select2-selection--multiple {
+  border: 1px solid #ced4da;
+}
+
+.select2-container--open .select2-dropdown--below {
+  border-top: 1px solid #aaa;
+  margin-top: 2px;
+}
+
+.card-info:not(.card-outline) .card-header a.active {
+    color: #495057;
+    border-color: #fff;
+}
+
+.card .overlay {
+    display: none;
+}
+
+.card .overlay .fas {
+    -webkit-animation: rotate 2s linear infinite;
+    -moz-animation: rotate 2s linear infinite;
+    -ms-animation: rotate 2s linear infinite;
+    -o-animation: rotate 2s linear infinite;
+    animation: rotate 2s linear infinite;
+}
+
+@keyframes rotate {
+    from {
+        -webkit-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        -ms-transform: rotate(0deg);
+        -o-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    to {
+        -webkit-transform: rotate(360deg);
+        -moz-transform: rotate(360deg);
+        -ms-transform: rotate(360deg);
+        -o-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+
+.file-upload .multi {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.file-upload img {
+    border: 1px solid #495057;
+}
+
+.file-upload .text-error {
+    opacity: 0;
+}
+.file-upload .img-block {
+    display: inline-block;
+    position: relative;
+}
+
+.file-upload .img-block .del-img {
+    position: absolute;
+    top: 0px;
+    right: 3px;
+    color: #e85f58;
+}
+
+.file-upload .img-block .del-img:hover {
+   color: #ec2e2e
+}
